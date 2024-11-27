@@ -1,4 +1,6 @@
 #if TESTING
+#ifndef MOCK_ARDUINO_H
+#define MOCK_ARDUINO_H
 #include<iostream>
 using namespace std;
 
@@ -28,4 +30,5 @@ void pinMode(int pin, int mode) {
     cout << "Set pinmode for pin " << pin << " to " << mode << endl;
 }
 
+#endif
 #endif

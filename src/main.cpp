@@ -1,19 +1,23 @@
 
-#ifndef TESTING
-#include <Arduino.h>
+#include "prelude.hpp"
+
+Servo the_servo;
 
 void setup() {
-
+    the_servo.attach(12);
 }
 
 void loop() {
-
+    the_servo.write(90);
 }
 
-#else
+#if TESTING
 
 int main() {
-    return 0;
+    setup();
+    for(int i=0; i<10; i++){
+        loop();
+    }
 }
 
 #endif
