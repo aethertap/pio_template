@@ -63,7 +63,7 @@ void loop()
 
 
 int main(void) {
-  cout << "testing testging" << endl;
+  cout << "testing testing" << endl;
   setup();
   loop();
   return 0;
