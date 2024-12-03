@@ -1,6 +1,6 @@
 #if TESTING
 
-#include "testing/mock-arduino.hpp"
+#include "mocks/mock-arduino.hpp"
 #include <unity.h>
 
 void setUp(void)

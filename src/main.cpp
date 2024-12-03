@@ -4,10 +4,13 @@
 Servo the_servo;
 
 void setup() {
+    Serial.begin(89999999);
     the_servo.attach(12);
 }
 
 void loop() {
+    Serial.print(178);
+    Serial.println("this is a string");
     the_servo.write(90);
 }
 

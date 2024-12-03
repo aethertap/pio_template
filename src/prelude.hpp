@@ -1,8 +1,8 @@
 #if TESTING
 
-#include "testing/mock-arduino.hpp"
-#include "testing/mock-servo.hpp"
-#include "testing/mock-serial.hpp"
+#include "mocks/mock-arduino.hpp"
+#include "mocks/mock-servo.hpp"
+#include "mocks/mock-serial.hpp"
 
 #else
 
